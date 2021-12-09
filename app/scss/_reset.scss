@@ -62,3 +62,16 @@ button,
 input {
   border: unset;
 }
+
+input,
+textarea {
+  border: unset;
+  background: transparent;
+  &::placeholder {
+  }
+}
+button {
+  background: transparent;
+  padding: unset;
+  cursor: pointer;
+}

@@ -22,15 +22,3 @@
         }
     }
 }
-input,
-textarea {
-    border: unset;
-    background: transparent;
-    &::placeholder {
-    }
-}
-button {
-    border: unset;
-    padding: unset;
-    cursor: pointer;
-}
